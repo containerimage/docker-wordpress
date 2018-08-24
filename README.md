@@ -1,4 +1,4 @@
-This image is for PHP+MySQL development. It also has on board an SSH server to which you can connect. __MySQL and PhpMyAdmin use the default XAMPP passwords__.
+This image is for creating a fresh wordpress installation for testing purposes. It also has on board an SSH server to which you can connect. __MySQL and PhpMyAdmin use the default XAMPP passwords__.
 
 ## How to run the image:
 
