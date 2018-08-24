@@ -7,22 +7,22 @@ docker run --name myContainerName -p 41061:22 -p 41062:80 -d quicksetup/wordpres
 ```
 The command above will expose the SSH server on port 41061 and HTTP server on port 41062.    
 Feel free to use your own name for the container...
-
-To connect to your web page, visit this URL: [http://localhost:41062/www](http://localhost:41062/www)    
-And to open up the XAMPP interface: [http://localhost:41062/](http://localhost:41062/)
+  
+To open up the XAMPP interface: [http://localhost:41062/](http://localhost:41062/)
 
 ## Wordpres Setup
 
-Connect to phpmyadmin [http://localhost:41062/phpmyadmin](http://localhost:41062/phpmyadmin)
-Create the database wordpress
+1. Connect to phpmyadmin [http://localhost:41062/phpmyadmin](http://localhost:41062/phpmyadmin)
+2. Create the database wordpress
 
-Go to [http://localhost:41062/wordpress](http://localhost:41062/wordpress)
+3. Go to [http://localhost:41062/wordpress](http://localhost:41062/wordpress)
 
 Use the following settings
 
 Databasename: wordpress
 Username: root
 Password: (Blank - Remove Text from here completly)
+Databasehost: localhost
 
 Hit install -> You are ready to go after putting in information about your site.
 
